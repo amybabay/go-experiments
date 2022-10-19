@@ -12,6 +12,10 @@ Starting from the tutorial
 go mod init github.com/amybabay/go-experiments
 ```
 
+Note: changed after the fact to just use "go-experiments" instead of
+github.com/amybabay/go-experiments, to allow building without publishing
+(2022/10/19)
+
 To get dependencies (e.g. quote package from hello example):
 ```
 go mod tidy
@@ -33,4 +37,9 @@ Notes to remember:
 
 - ``:=`` operator is a shortcut for declaring and initializing a variable
 
-- can only have a single package per directory. package name must match directory name
+- can only have a single package per directory. package name must match
+  directory name
+    - If you want to have multiple files implementing parts of a single
+      executable, all would be in "main" package (under directory named as the
+      target executable, e.g. cmd/hello/main.go cmd/hello/greetings.go; no
+      greetings package in this case)
