@@ -6,7 +6,7 @@ import (
 
     "rsc.io/quote"
 
-    "github.com/amybabay/go-experiments/internal/greetings"
+    "go-experiments/greetings"
 )
 
 func main() {

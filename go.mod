@@ -1,4 +1,4 @@
-module github.com/amybabay/go-experiments
+module go-experiments
 
 go 1.17
 
