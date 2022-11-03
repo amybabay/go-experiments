@@ -3,6 +3,9 @@
 Starting from the tutorial
 [https://go.dev/doc/tutorial/getting-started](https://go.dev/doc/tutorial/getting-started).
 
+[A Tour of Go](https://go.dev/tour/welcome/1)
+
+[Effective Go](https://go.dev/doc/effective_go) (reference)
 
 ## code organization
 
