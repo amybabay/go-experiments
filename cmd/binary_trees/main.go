@@ -39,10 +39,9 @@ func Same(t1, t2 *tree.Tree) bool {
 		}
 
 		if !ok1 && !ok2 {
-			break
+			return true
 		}
 	}
-	return true
 }
 
 func main() {
